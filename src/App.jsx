@@ -11,16 +11,8 @@ import Alert from '@mui/material/Alert';
 import Header from './components/Header';
 import CityInput from './components/CityInput';
 import WeatherCard from './components/WeatherCard';
+import ErrorMessage from './components/ErrorMessage';
 
-// ErrorMessage component
-function ErrorMessage({ message }) {
-  if (!message) return null;
-  return (
-    <Alert severity="error" sx={{ marginTop: '20px' }}>
-      {message}
-    </Alert>
-  );
-}
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
