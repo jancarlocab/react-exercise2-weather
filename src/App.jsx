@@ -5,8 +5,6 @@ import '@fontsource/roboto/700.css';
 import { useState } from 'react';
 import './App.css';
 import axios from 'axios';
-import Box from '@mui/material/Box';
-import Alert from '@mui/material/Alert';
 
 import Header from './components/Header';
 import CityInput from './components/CityInput';
