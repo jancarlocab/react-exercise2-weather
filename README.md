@@ -1,6 +1,8 @@
 # React Exercise 2 - Weather App
 ----------
 
+Jan Carlo L. Cabrera UPLB
+
 ## Code Description
 ----------
 This is a React-based weather application that allows users to search for weather information by city name. The app fetches real-time weather data from the `goweather.herokuapp.com` API and displays it in a clean, material-UI styled interface. The application handles loading states, error messages, and displays weather information including temperature and forecast in a card layout.
